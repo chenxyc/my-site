@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1.5em;
+  }
+  
+.grid__item {
+    width: 100px;
+    height: 200px;
+    background: skyblue;
+    align-items: center;
+  }
